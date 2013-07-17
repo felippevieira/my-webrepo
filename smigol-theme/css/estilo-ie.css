@@ -1,0 +1,66 @@
+@import url('reset.css');
+/******* CSS geral ***********/
+html{ margin:0; padding:0; overflow-y: scroll; }
+body{ margin:0; padding:0; font-family:Tahoma, Geneva, sans-serif; font-size:12px; background:url(../images/body.jpg) repeat-x top left #075e7f;  }
+div.clear { clear:both; }
+a { overflow:hidden; }
+/****** Fim CSS geral *******/
+/****** CSS main ***********/
+div#pagewrap { width:870px; margin:0 auto;  }
+div#topo { height:515px; width:870px; float:left; position:relative; }
+div#conteudo { width:870px; float:left;  }
+div#footer { width:870px; float:left; } 
+/******* FIM CSS main ******/
+/************* CSS topo ***********/
+div#topo div#logo { width:260px; height:125px; position:absolute; top:0; left:0; z-index:999;}
+div#topo div#logo h1 { width:260px; height:125px; float:left; }
+div#topo div#logo h1 a { width:260px; height:125px; float:left; display:block; text-indent:-9999px; background:url(../images/sprite.png) no-repeat 0 0;  }
+div#topo div#wrapper { width:870px; height:517px; float:left; }
+div#topo div#menu {position:absolute; bottom:0; left:0; width:870px; height:58px; background:url(../images/menu.jpg) repeat-x top left; z-index:997; -moz-border-radius: 10px; border-radius: 10px; }
+div#topo div#menu ul { width:870px; height:58px; float:left; }
+div#topo div#menu ul li { height:58px; float:left; }
+div#topo div#menu ul li a { font-family: 'Bevan',Tahoma, serif; font-size:12px; color:#4a4a4a; text-transform:uppercase; padding:20px; text-decoration:none; float:left; }
+div#topo div#menu ul li#ping a { font-family: 'Bevan',Tahoma, serif; font-size:12px; color:#4a4a4a; text-transform:uppercase; padding:7px 20px 10px 20px; text-decoration:none; float:left; text-align:center; }
+div#topo div#menu ul li a:hover {  padding:20px 20px 34px 20px; float:left; background:url(../images/activemenu.png) no-repeat bottom center;}
+div#topo div#menu ul li#ping a:hover {  padding:7px 20px 27px 20px; float:left; background:url(../images/activemenu.png) no-repeat bottom center;}
+div#topo div#sociais { position:absolute; width:100px; height:40px; bottom:5px; right:0; z-index:998;}
+div#topo div#sociais ul {  width:100px; height:40px; list-style:none; float:left; }
+div#topo div#sociais ul li {  width:32px; height:32px; float:left; }
+div#topo div#sociais ul li#fb { margin:0 10px 0 0; }
+div#topo div#sociais ul li#fb a {  width:32px; height:32px; float:left; display:block; text-indent:-9999px; background:url(../images/sprite.png) no-repeat -37px -165px;  }
+div#topo div#sociais ul li#tt a {  width:32px; height:32px; float:left; display:block; text-indent:-9999px; background:url(../images/sprite.png) no-repeat -76px -165px;  }
+/******* FIM CSS topo **/
+/************* CSS conteudo ***********/
+
+/******* FIM CSS conteudo **/
+/******* CSS footer *****/
+#footer { padding:52px 0 0 0; }
+#footer #menufooter { margin:47px 0 0 34px; width:565px; height:80px; float:left; }
+#footer #menufooter ul { width:565px; height:80px; float:left; list-style:none; }
+#footer #menufooter ul li { float:left; height:34px; margin:0 0 10px 0; }
+#footer #menufooter ul li a { float:left; height:34px; display:block; text-indent:-9999px; }
+#footer #menufooter ul li.foothome  { width:93px; }
+#footer #menufooter ul li.foothome a { width:93px; background:url(../imagens/sprite.png) no-repeat -656px -444px; }
+#footer #menufooter ul li.footquemsomos  { width:208px; }
+#footer #menufooter ul li.footquemsomos a { width:208px; background:url(../imagens/sprite.png) no-repeat -749px -444px; }
+#footer #menufooter ul li.footagenda  { width:132px; }
+#footer #menufooter ul li.footagenda a { width:132px; background:url(../imagens/sprite.png) no-repeat -957px -444px; }
+#footer #menufooter ul li.footclipping  { width:126px; }
+#footer #menufooter ul li.footclipping a { width:126px; background:url(../imagens/sprite.png) no-repeat -1089px -444px; }
+#footer #menufooter ul li.footmultimidia  { width:170px; }
+#footer #menufooter ul li.footmultimidia a { width:170px; background:url(../imagens/sprite.png) no-repeat -656px -487px; }
+#footer #menufooter ul li.footdescontos  { width:185px; }
+#footer #menufooter ul li.footdescontos a { width:185px; background:url(../imagens/sprite.png) no-repeat -826px -487px; }
+#footer #menufooter ul li.footcontato  { width:123px; }
+#footer #menufooter ul li.footcontato a { width:123px; background:url(../imagens/sprite.png) no-repeat -1011px -487px; }
+
+#footer #menufooter #copyright { width:300px; float:left; height:20px; margin:15px 0 0 0; }
+#footer #logofooter { width:152px; height:155px; float:right; margin:10px 60px 0 0; }
+#footer #logofooter a { width:152px; height:155px; float:right; display:block; text-indent:-9999px; background:url(../imagens/sprite.png) no-repeat -13px -532px; }
+/******* FIM CSS footer ****/
+
+div#topo div#wrapper div.theme-default #slider {
+    margin:0 auto;
+    width:870px; /* Make sure your images are the same size */
+    height:517px; /* Make sure your images are the same size */
+}
