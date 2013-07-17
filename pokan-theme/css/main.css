@@ -1,0 +1,29 @@
+.mainmenuslide {
+	width:795px; height:49px;
+    position: relative;
+    }
+.mainmenuslide li {
+	margin:0 30px;
+	float: left; list-style: none;
+	}
+.mainmenuslide li.back {
+	background: url("../images/hover_main.png") no-repeat right -42px;
+	width: 9px; 
+	height: 49px; 
+    z-index: 1;	
+	margin: -12px 0 0 8px; 
+	position: absolute;
+	}
+.mainmenuslide li.back .left {
+	background: url("../images/hover_main.png") no-repeat top left ;
+	height: 42px;
+	margin-right: 6px; 
+	}
+.mainmenuslide li a {
+	z-index: 2; 
+	float: left;
+    position: relative;   
+    }
+  
+
+               
